@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+}
+header{
+    text-align: center;
+    background-color: rgb(20, 4, 90);  
+    padding: 2%;
+}
+header div{
+    display: flex;
+    justify-content: space-evenly;
+}
+header div form{
+    width: 430%;
+}
+form input{
+    color: black;
+    margin-top: 1%;
+    width: 90%;
+}
+header img{
+    width: 10%;
+}
+nav{
+    border: 1px solid rgb(68, 5, 155);
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: rgb(2, 8, 90);
+}
+nav div{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div p{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border-radius: 20px;
+    border: 1px solid rgb(78, 22, 157);
+}
+section{
+    padding: 1%;
+    display: flex;
+    color: black;
+    margin: 1%;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+section div{
+    color: black;
+}
+section div img{
+    width: 100%;
+}
+#descricao{
+    text-align: center;
+    display: block;
+    border: 1px solid gray;
+}
+#compra{
+    padding: 1%;
+    border-radius: 20px;
+    border: 1px solid blue;
+}
+button{
+    border-radius: 20px;
+    border-color: green;
+    background-color: greenyellow;
+    padding: 10%;
+    margin-top: 30%;
+    margin-left: 55%;
+}

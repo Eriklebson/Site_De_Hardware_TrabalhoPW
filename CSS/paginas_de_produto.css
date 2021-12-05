@@ -46,19 +46,26 @@ section{
     display: flex;
     color: black;
     margin: 1%;
-    border: 1px solid gray;
+    border: 1px solid blue;
     border-radius: 10px;
 }
 section div{
     color: black;
 }
+.previo_img{
+    width: 30%;
+}
+.previo{
+    border: 1px solid blue;
+    border-radius: 10px;
+}
 section div img{
-    width: 100%;
+    width: 90%;
 }
 #descricao{
     text-align: center;
     display: block;
-    border: 1px solid gray;
+    border: 1px solid blue;
 }
 #compra{
     padding: 1%;
@@ -71,5 +78,5 @@ button{
     background-color: greenyellow;
     padding: 10%;
     margin-top: 30%;
-    margin-left: 55%;
+    margin-left: 50%;
 }

@@ -53,9 +53,11 @@ section div{
     color: black;
 }
 .previo_img{
+    padding: 1%;
     width: 30%;
 }
 .previo{
+    padding: 6%;
     border: 1px solid blue;
     border-radius: 10px;
 }

@@ -3,6 +3,7 @@
     padding: 0;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 header{
@@ -37,11 +38,17 @@ nav div{
     display: flex;
     justify-content: space-evenly;
 }
-nav div p{
-    padding-left: 2.5%;
-    padding-right: 2.5%;
-    border-radius: 20px;
+nav div a{
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
     border: 1px solid rgb(78, 22, 157);
+}
+nav div a:hover{
+    color: blueviolet;
 }
 section{
     width: 100%;
@@ -63,9 +70,25 @@ menu{
 #maisMonitor{
     display: none;
 }
+menu li a{
+    color: white;
+    text-decoration: none;
+}
+menu a:hover{
+    color: blueviolet;
+}
 button{
+    cursor: pointer;
+    padding: 5px;
     color: white;
     background-color: rgb(45, 13, 75);
+    border: 1px solid rgb(78, 22, 157);
+    border-radius: 10px;
+}
+button:hover{
+    color: blueviolet;
+}
+menu button{
     border: none;
 }
 section img{
@@ -95,4 +118,11 @@ article{
     display: inline;
     border: 1px solid black;
     border-radius: 20px;
+}
+div section h3, h5{
+    color: black;
+    text-decoration: none;
+}
+div section h3:hover, h5:hover{
+    color: blueviolet;
 }

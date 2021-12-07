@@ -3,11 +3,12 @@
     padding: 0;
 }
 body{
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 header{
     text-align: center;
-    background-color: rgb(20, 4, 90);  
+    background-color: rgb(45, 13, 75);  
     padding: 2%;
 }
 header div{
@@ -29,7 +30,7 @@ nav{
     border: 1px solid rgb(68, 5, 155);
     padding-top: 0.5%;
     padding-bottom: 0.5%;
-    background-color: rgb(2, 8, 90);
+    background-color: rgb(45, 13, 75);
 }
 nav div{
     display: flex;
@@ -42,10 +43,12 @@ nav div p{
     border: 1px solid rgb(78, 22, 157);
 }
 section{
+    width: 85%;
+    margin-top: 1%;
+    margin-left: 6%;
     padding: 1%;
     display: flex;
     color: black;
-    margin: 1%;
     border: 1px solid blue;
     border-radius: 10px;
 }
@@ -64,8 +67,10 @@ section div{
 section div img{
     width: 90%;
 }
-#descricao{
+.text_align{
     text-align: center;
+}
+.descricao{
     display: block;
     border: 1px solid blue;
 }
@@ -81,4 +86,10 @@ button{
     padding: 10%;
     margin-top: 30%;
     margin-left: 50%;
+}
+li{
+    list-style: none;
+}
+.text_green{
+    color: green;
 }

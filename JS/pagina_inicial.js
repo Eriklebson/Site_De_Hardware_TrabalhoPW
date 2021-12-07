@@ -54,3 +54,6 @@ function enviar(){
 function popup(){
     alert("Verificando credenciais")
 }
+function comprar(){
+    alert("Desculpe isso é so um trabalho de escola, mas quem sabe um dia :)")
+}

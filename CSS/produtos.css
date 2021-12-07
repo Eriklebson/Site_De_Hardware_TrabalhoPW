@@ -113,7 +113,10 @@ article{
     border: 1px solid black;
     border-radius: 20px;
 }
-div section h3, h5{
+div section h3{
+    color: green;
+}
+div section h5{
     color: black;
     text-decoration: none;
 }

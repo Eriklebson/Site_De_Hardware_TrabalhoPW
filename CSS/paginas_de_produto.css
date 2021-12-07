@@ -103,6 +103,7 @@ section div img{
     border: 1px solid blue;
 }
 .button{
+    color: black;
     border-radius: 20px;
     border-color: green;
     background-color: greenyellow;

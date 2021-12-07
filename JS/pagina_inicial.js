@@ -39,6 +39,15 @@ function entrar(){
 function suporte(){
     window.open('../suporte/suporte.html', 'login', 'height=700px, width=7000px')
 }
+function cadastro1(){
+    window.open('../../suporte/cadastro.html', 'cadastro', 'height=700px, width=7000px')
+}
+function entrar1(){
+    window.open('../../suporte/login.html', 'login', 'height=700px, width=7000px')
+}
+function suporte1(){
+    window.open('../../suporte/suporte.html', 'login', 'height=700px, width=7000px')
+}
 function enviar(){
     alert("Enviando")
 }

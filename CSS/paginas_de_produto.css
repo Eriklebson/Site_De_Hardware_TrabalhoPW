@@ -42,6 +42,29 @@ nav div p{
     border-radius: 20px;
     border: 1px solid rgb(78, 22, 157);
 }
+nav div a{
+    color: white;
+    text-decoration: none;
+    padding-top: 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 10px;
+    border: 1px solid rgb(78, 22, 157);
+}
+nav div a:hover{
+    color: blueviolet;
+}
+button{
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    background-color: rgb(45, 13, 75);
+    border: 1px solid rgb(78, 22, 157);
+    border-radius: 10px;
+}
+button:hover{
+    color: blueviolet;
+}
 section{
     width: 85%;
     margin-top: 1%;
@@ -79,7 +102,7 @@ section div img{
     border-radius: 20px;
     border: 1px solid blue;
 }
-button{
+.button{
     border-radius: 20px;
     border-color: green;
     background-color: greenyellow;

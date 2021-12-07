@@ -78,6 +78,9 @@ menu li a{
     color: white;
     text-decoration: none;
 }
+menu a:hover{
+    color: blueviolet;
+}
 menu button{
     border: none;
 }

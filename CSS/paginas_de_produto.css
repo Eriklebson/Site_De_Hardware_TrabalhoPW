@@ -20,7 +20,24 @@ header div{
     justify-content: space-evenly;
 }
 header div h1{
-    text-shadow: 2px 2px 0 #ea00ff, 4px 4px 0 #8000ff;
+    animation: color 1s infinite
+}
+@keyframes color{
+    0%{
+        text-shadow: 2px 2px 0 red, 4px 4px 0 orange;
+    }
+    25%{
+        text-shadow: 2px 2px 0 orange, 4px 4px 0 yellow;
+    }
+    50%{
+        text-shadow: 2px 2px 0 yellow, 4px 4px 0 yellowgreen;
+    }
+    75%{
+        text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 green;
+    }
+    100%{
+        text-shadow: 2px 2px 0 green, 4px 4px 0 blue;
+    }
 }
 header img{
     width: 10%;

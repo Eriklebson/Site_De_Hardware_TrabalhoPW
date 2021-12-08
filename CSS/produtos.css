@@ -22,10 +22,11 @@ nav{
     color: white;
     position: sticky;
     top: 0;
-    border: 1px solid rgb(68, 5, 155);
     padding-top: 0.5%;
     padding-bottom: 0.5%;
     background-color: rgb(45, 13, 75);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-bottom: 2%;
 }
 nav div{
     display: flex;
@@ -35,7 +36,6 @@ nav div p{
     padding-left: 2.5%;
     padding-right: 2.5%;
     border-radius: 20px;
-    border: 1px solid rgb(78, 22, 157);
 }
 nav div a{
     color: white;
@@ -44,7 +44,6 @@ nav div a{
     padding-left: 2%;
     padding-right: 2%;
     border-radius: 10px;
-    border: 1px solid rgb(78, 22, 157);
 }
 nav div a:hover{
     color: blueviolet;
@@ -53,20 +52,24 @@ nav div a:hover{
     padding: 5px;
     color: white;
     background-color: rgb(45, 13, 75);
-    border: 1px solid rgb(78, 22, 157);
+    border: none;
     border-radius: 10px;
 }
 button:hover{
     color: blueviolet;
 }
 menu{
+    color: black;
+    margin-top: 2%;
+    margin-left: 1%;
     padding-top: 2%;
     padding-left: 2%;
-    background-color: rgb(45, 13, 75);
+    background-color: transparent;
     position: sticky; 
     height: 10%;
     width: 20%;
     top: 10%;
+    border-radius: 3px;
 }
 #maisHardware{
     display: none;
@@ -74,14 +77,19 @@ menu{
 #maisMonitor{
     display: none;
 }
+menu li{
+    list-style: none;
+}
 menu li a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 menu a:hover{
     color: blueviolet;
 }
 menu button{
+    background-color: transparent;;
+    color: black;
     border: none;
 }
 section img{
@@ -92,10 +100,13 @@ div section img{
     width: 50%;
 }
 article{
-    color: white;
-    background-color: rgb(45, 13, 75);
+    margin: auto;
+    width: 99%;
+    background-color: transparent;
+    border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .produtos{
     margin-left: -78%;
@@ -106,12 +117,22 @@ article{
 }
 .produto{
     background-color: white;
-    margin: 1%;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
     width: 90%;
     padding: 2%;
     display: inline;
-    border: 1px solid black;
-    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 3px;
+}
+div section:hover{
+    margin-left: 2.5%;
+    margin-bottom: 2.5%;
+    width: 95%;
+    height: 95%;
+    box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(13, 0, 255, 0.22) 0px 15px 12px;
 }
 div section h3{
     color: green;

@@ -101,12 +101,13 @@ div section img{
 }
 article{
     margin: auto;
+    margin-bottom: 5%;
     width: 99%;
     background-color: transparent;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation: colorRGB 5s infinite;
 }
 .produtos{
     margin-left: -78%;
@@ -127,12 +128,34 @@ article{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 3px;
 }
+@keyframes colorRGB{
+    0%{
+        box-shadow: #00FF08 0px 19px 38px, #D9B30B 0px 15px 12px;
+    }
+    5%{
+        box-shadow: #D9B30B 0px 19px 38px, #F03400 0px 15px 12px;
+    }
+    25%{
+        box-shadow: #F03400 0px 19px 38px, #8C09D6 0px 15px 12px;
+    }
+    45%{
+        box-shadow: #8C09D6 0px 19px 38px, #01A8FF 0px 15px 12px;
+    }
+    65%{
+        box-shadow: #F03400 0px 19px 38px, #8C09D6 0px 15px 12px;
+    }
+    85%{
+        box-shadow: #D9B30B 0px 19px 38px, #F03400 0px 15px 12px;
+    }
+    100%{
+        box-shadow: #00FF08 0px 19px 38px, #D9B30B 0px 15px 12px;
+    }
+}
 div section:hover{
     margin-left: 2.5%;
-    margin-bottom: 2.5%;
+    padding-bottom: 5%;
     width: 95%;
-    height: 95%;
-    box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(13, 0, 255, 0.22) 0px 15px 12px;
+    animation: colorRGB 5s infinite;
 }
 div section h3{
     color: green;

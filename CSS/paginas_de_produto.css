@@ -20,23 +20,35 @@ header div{
     justify-content: space-evenly;
 }
 header div h1{
-    animation: color 1s infinite
+    animation: color 5s infinite;
 }
 @keyframes color{
     0%{
-        text-shadow: 2px 2px 0 red, 4px 4px 0 orange;
+        text-shadow: 2px 2px 0 #F507C8, 4px 4px 0 #E005FC;
     }
-    25%{
-        text-shadow: 2px 2px 0 orange, 4px 4px 0 yellow;
+    12.4%{
+        text-shadow: 2px 2px 0 #E005FC, 4px 4px 0 #9B07E6;
     }
-    50%{
-        text-shadow: 2px 2px 0 yellow, 4px 4px 0 yellowgreen;
+    24.8%{
+        text-shadow: 2px 2px 0 #9B07E6, 4px 4px 0 #7C12FF;
     }
-    75%{
-        text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 green;
+    37.2%{
+        text-shadow: 2px 2px 0 #7C12FF, 4px 4px 0 #3E07F5;
+    }
+    49.6%{
+        text-shadow: 2px 2px 0 #3E07F5, 4px 4px 0 #2D00F7;
+    }
+    62%{
+        text-shadow: 2px 2px 0 #7C12FF, 4px 4px 0 #3E07F5;
+    }
+    74.4%{
+        text-shadow: 2px 2px 0 #9B07E6, 4px 4px 0 #7C12FF;
+    }
+    86.8%{
+        text-shadow: 2px 2px 0 #E005FC, 4px 4px 0 #9B07E6;
     }
     100%{
-        text-shadow: 2px 2px 0 green, 4px 4px 0 blue;
+        text-shadow: 2px 2px 0 #F507C8, 4px 4px 0 #E005FC;
     }
 }
 header img{

@@ -19,28 +19,42 @@ header div{
     display: flex;
     justify-content: space-evenly;
 }
+@keyframes color{
+    0%{
+        text-shadow: 2px 2px 0 #F507C8, 4px 4px 0 #E005FC;
+    }
+    12.4%{
+        text-shadow: 2px 2px 0 #E005FC, 4px 4px 0 #9B07E6;
+    }
+    24.8%{
+        text-shadow: 2px 2px 0 #9B07E6, 4px 4px 0 #7C12FF;
+    }
+    37.2%{
+        text-shadow: 2px 2px 0 #7C12FF, 4px 4px 0 #3E07F5;
+    }
+    49.6%{
+        text-shadow: 2px 2px 0 #3E07F5, 4px 4px 0 #2D00F7;
+    }
+    62%{
+        text-shadow: 2px 2px 0 #7C12FF, 4px 4px 0 #3E07F5;
+    }
+    74.4%{
+        text-shadow: 2px 2px 0 #9B07E6, 4px 4px 0 #7C12FF;
+    }
+    86.8%{
+        text-shadow: 2px 2px 0 #E005FC, 4px 4px 0 #9B07E6;
+    }
+    100%{
+        text-shadow: 2px 2px 0 #F507C8, 4px 4px 0 #E005FC;
+    }
+}
 header div h1{
     animation: color 1s infinite
 }
-@keyframes color{
-    0%{
-        text-shadow: 2px 2px 0 red, 4px 4px 0 orange;
-    }
-    25%{
-        text-shadow: 2px 2px 0 orange, 4px 4px 0 yellow;
-    }
-    50%{
-        text-shadow: 2px 2px 0 yellow, 4px 4px 0 yellowgreen;
-    }
-    75%{
-        text-shadow: 2px 2px 0 greenyellow, 4px 4px 0 green;
-    }
-    100%{
-        text-shadow: 2px 2px 0 green, 4px 4px 0 blue;
-    }
-}
 header img{
+    background-color: transparent;
     width: 10%;
+
 }
 nav{
     color: white;
@@ -135,7 +149,7 @@ article{
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    animation: colorRGB 5s infinite;
 }
 .produtos{
     margin-left: -78%;
@@ -150,18 +164,40 @@ article{
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 10%;
-    width: 90%;
+    width: 85%;
     padding: 2%;
     display: inline;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     border-radius: 3px;
 }
+@keyframes colorRGB{
+    0%{
+        box-shadow: #00FF08 0px 19px 38px, #D9B30B 0px 15px 12px;
+    }
+    5%{
+        box-shadow: #D9B30B 0px 19px 38px, #F03400 0px 15px 12px;
+    }
+    25%{
+        box-shadow: #F03400 0px 19px 38px, #8C09D6 0px 15px 12px;
+    }
+    45%{
+        box-shadow: #8C09D6 0px 19px 38px, #01A8FF 0px 15px 12px;
+    }
+    65%{
+        box-shadow: #F03400 0px 19px 38px, #8C09D6 0px 15px 12px;
+    }
+    85%{
+        box-shadow: #D9B30B 0px 19px 38px, #F03400 0px 15px 12px;
+    }
+    100%{
+        box-shadow: #00FF08 0px 19px 38px, #D9B30B 0px 15px 12px;
+    }
+}
 div section:hover{
     margin-left: 2.5%;
-    margin-bottom: 2.5%;
+    padding-bottom: 5%;
     width: 95%;
-    height: 95%;
-    box-shadow: rgba(255, 0, 0, 0.3) 0px 19px 38px, rgba(13, 0, 255, 0.22) 0px 15px 12px;
+    animation: colorRGB 5s infinite;
 }
 div section h3, h5{
     color: black;
@@ -169,4 +205,12 @@ div section h3, h5{
 }
 div section h3:hover, h5:hover{
     color: blueviolet;
+}
+footer{
+    background-color: rgb(45, 13, 75);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 5%;
+    animation: colorRGB 1s infinite;
 }

@@ -14,22 +14,6 @@ function hardware(){
         hardware.innerHTML="<";
     }
 }
-function monitor(){
-    var seta=document.getElementById("setaMonitor");
-    var maisText=document.getElementById("maisMonitor");
-    var monitor=document.getElementById("monitor");
-
-    if(seta.style.display == "none"){
-        seta.style.display="inline";
-        maisText.style.display="none";
-        monitor.innerHTML=">";
-    }
-    else{
-        seta.style.display="none";
-        maisText.style.display="inline";
-        monitor.innerHTML="<";
-    }
-}
 function cadastro(){
     window.open('../suporte/cadastro.html', 'cadastro', 'height=700px, width=7000px')
 }
